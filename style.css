@@ -22,6 +22,9 @@ body.dark{
 body.dark .modal-content{
 	box-shadow: box-shadow: 0 4px 20px rgb(255 255 255 / 30%)!important;
 }
+body.no-scroll {
+    overflow: hidden; /* Prevent scrolling */
+}
 
 ::-webkit-scrollbar {
   width: 7px;
@@ -66,7 +69,7 @@ body.dark .modal-content{
 	left: 0;
 	top: 0;
 	z-index: 10;
-	height: 100%;
+	height: 100vh;
 	padding: 30px;
 	box-shadow: rgb(149 157 165 / 10%) 0px 8px 30px;
 /*	border-right: 1px solid var(--bg-black-50);*/
