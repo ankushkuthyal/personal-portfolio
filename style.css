@@ -1378,6 +1378,10 @@ span.close{
 	    top: -70px;
 	    width: 120px;
 	}
+	.contact .contact-form .btn{
+		display: flex;
+    	align-items: center;
+	}
 }
 
 @media (max-width: 735px){
