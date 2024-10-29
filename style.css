@@ -821,7 +821,7 @@ span.close{
 .modalDetails{
 	display: block!important;
 	padding: 20px;
-	height: 498px;
+	height: 490px;
     overflow: auto;
     margin-bottom: 10px;
 }
@@ -938,7 +938,7 @@ span.close{
 
 @media (max-width: 1326px){
 	.modalDetails{
-		height: 450px;
+		max-height: 100%;
 	}
 }
 
@@ -1114,15 +1114,16 @@ span.close{
 		margin-right: 0px;
 	}
 	.aside .logo{
-		position: relative;
+		position: absolute;
+    	top: 20px;
 	}
 	.aside .logo a:first-child{
 		display: none;
 	}
 	.aside .logo a:last-child{
 		display: block;
-		position: absolute;
-    	top: -310px;
+		/*position: absolute;
+    	top: -310px;*/
 	}
 	.aside .logo a::before {
     	left: 5px;
@@ -1290,6 +1291,11 @@ span.close{
 		width: fit-content;
 	    margin: 0 auto;
 	    display: flex;
+	}
+	.buttons .btn{
+		width: auto;
+		margin: initial;
+		display: initial;
 	}
 	.home .home-info{
 		flex: 0 0 100%;
@@ -1541,5 +1547,15 @@ span.close{
 	.contact .contact-form .contact-girl{
 		top: -67px;
 		left: -27px;
+	}
+	.buttons {
+    	margin: auto;
+	}
+	.buttons .btn{
+		width: 150px;
+	    margin: 0 auto;
+	    text-align: center;
+	    display: flex;
+    	justify-content: center;
 	}
 }
